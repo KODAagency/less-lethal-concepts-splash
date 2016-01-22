@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css">
+
+    <style>
+      @font-face {
+        font-family: 'Proxima Nova';
+        src: url('./font/301E51_0_0.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+             url('./font/301E51_0_0.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+      }
+
+      header {
+        width: 100%;
+        background: #fff;
+        padding: 1rem;
+      }
+
+      body {
+        background: #000 url(bg.jpg) center 60px no-repeat;
+        background-size: 1050px auto;
+        text-align: center;
+        color: #fff;
+      }
+      @media screen and (min-width: 40em) {
+        body {
+          background-size: 1400px auto;
+          background-position: center 50px;
+        }
+      }
+      @media screen and (min-width: 64em) {
+        body {
+          background-size: 1500px auto;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-family: 'Proxima Nova';
+      }
+      h3 {
+        font-size: 1.5rem;
+      }
+      address {
+        font-style: normal;
+        line-height: 0.9rem;
+        font-size: 0.8rem;
+        color: #a7a9ac;
+        margin-top: 10rem;
+        font-family: 'Proxima Nova';
+      }
+      small {
+        display: block;
+        margin: 5rem 0 2rem;
+        line-height: 0.9rem;
+        font-size: 0.8rem;
+        color: #a7a9ac;
+        font-family: 'Proxima Nova';
+      }
+      [type=email], [type=email]:focus, [type=email]:active,
+      [type=submit] {
+        background-color: #254269;
+        border-color: #254269;
+        border-radius: 4px;
+        padding: 1rem;
+        font-size: 1rem;
+        color: #fff;
+        height: 3rem;
+        float: left;
+        width: 75%;
+        font-family: 'Proxima Nova';
+      }
+      [type=submit] {
+        width: 20%;
+        margin-left: 5%;
+      }
+      [type=submit]:hover {
+        background-color: #fff;
+        color: #254269;
+      }
+
+      .pepper-pak {
+        width: 198px;
+        margin-bottom: 2rem;
+      }
+      @media screen and (min-width: 40em) {
+        .pepper-pak {
+          width: 198px;
+          float: left;
+          margin-bottom: 0;
+        }
+      }
+
+      .the-new {
+        width: 209px;
+      }
+      @media screen and (min-width: 40em) {
+        .the-new {
+          width: 209px;
+          float: right;
+        }
+      }
+
+      .logo {
+        display: block;
+        margin: 0 auto;
+        width: 359px;
+      }
+
+      .phone {
+        color: #727272;
+        display: inline-block;
+        margin-top: 1.2rem;
+        font-size: 1.2rem;
+      }
+      @media screen and (min-width: 40em) {
+        .phone {
+          position: absolute;
+          float: right;
+          right: 0;
+          top: 1.5rem;
+          margin-top: 0;
+        }
+      }
+
+      .header-border {
+        background: url(header-border.png) center repeat-x;
+        height: 25px;
+        margin-bottom: 20rem;
+      }
+      @media screen and (min-width: 40em) {
+        .header-border {
+          margin-bottom: 0;
+        }
+      }
+
+      .headlines {
+        margin: 4rem auto 2rem;
+        width: 75%;
+        background: rgba(0,0,0,0.75);
+        padding: 2rem;
+      }
+      @media screen and (min-width: 40em) {
+        .headlines {
+          background-color: rgba(0,0,0,0.0);
+          margin: 9rem auto;
+          padding: 0;
+          width: 80%;
+        }
+      }
+      @media screen and (min-width: 64em) {
+        .headlines {
+          width: 75%;
+        }
+      }
+
+      .body-copy {
+        margin: 0 auto 2rem;
+        padding: 2rem;
+      }
+      @media screen and (min-width: 40em) {
+        .body-copy {
+          margin-top: 17rem;
+          padding: 0;
+          width: 65%;
+          background: rgba(0,0,0,0.75);
+          padding: 1rem;
+        }
+      }
+      @media screen and (min-width: 64em) {
+        .body-copy {
+          margin-top: 27rem;
+          width: 45%;
+          padding: 0;
+          background: none;
+        }
+      }
+
+      h3 {
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        font-family: 'Proxima Nova';
+      }
+
+      .row {
+        position: relative;
+      }
+
+      form {
+        padding: 1rem;
+        width: 75%;
+        max-width: 25rem;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="row">
+        <img src="logo.svg" alt="" class="logo">
+        <p class="phone">(800) 531-9576</p>
+      </div>
+    </header>
+    <div class="header-border"></div>
+
+    <div class="row">
+      <div class="headlines clearfix">
+        <img src="pepper-pak-50.svg" alt="Pepper Pak" class="pepper-pak">
+        <img src="the-definition-of-defense.svg" alt="" class="the-new">
+      </div>
+
+      <p class="body-copy">The Pepper Pak 50 chemical agent dispenser from Less Lethal Concepts gives your team a compact, lightweight, easy-to-use, self-contained system for quickly and safely subduing crowds or individuals. A variety of attachments make this innovative system effective in close quarters or from as far as 50 feet away, in focused or multi-directional streams. Designed with durability in mind, the Pepper Pak 50 is an affordable tool that no law enforcement, corrections or security agency should be without.</p>
+
+      <h3>Enter Your Email For More Information</h3>
+    </div>
+
+    <form method="post" action="http://lesslethalconcepts.us12.list-manage1.com/subscribe?u=0da50ce7ce0378e32f6ee414f&id=d8cbecf360" class="clearfix">
+      <label>
+        <input type="email" name="MERGE0" placeholder="Email" required>
+      </label>
+      <button type="submit">GO</button>
+    </form>
+
+    <address>
+      550 W. Baseline Rd. Suite 102-128<br>
+      Mesa, AZ 85210
+    </address>
+
+    <small>
+      &copy;2016 Less Lethal Concepts | July 2015
+    </small>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-72418035-1','auto');ga('send','pageview');
+    </script>
+  </body>
+</html>
